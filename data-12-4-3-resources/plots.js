@@ -20,8 +20,8 @@ function init() {
 //It's instead called by the onchange attribute of the dropdown menu in index.html. 
 function optionChanged(newSample) {
     buildMetadata(newSample);
-    buildCharts(newSample);
-    //console.log(newSample);
+    //buildCharts(newSample);
+    console.log(newSample);
   }
 
 function buildMetadata(sample) {
